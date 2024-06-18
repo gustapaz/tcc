@@ -11,15 +11,21 @@ function Services() {
 
     return (
         <Container>
-            <img src="https://via.placeholder.com/1200x400" alt="Nossos Serviços" className="img-fluid" />
+            <img src="/images/our_services.jpg" alt="Nossos Serviços" className="img-fluid" />
             <Typography variant="h4" gutterBottom>
                 Nossos Serviços
             </Typography>
             <Typography variant="body1" paragraph>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque ante nec ligula fermentum, sed fringilla purus vestibulum. Donec rhoncus urna nec ligula consectetur consequat. Duis lobortis nec ipsum in posuere. Sed volutpat, enim eget vulputate rutrum, dui velit posuere mi, nec sodales est eros in libero. Nullam ac luctus nisl, vel sollicitudin metus. Curabitur ut sagittis eros. Integer varius orci nec erat hendrerit faucibus. Vestibulum in lacus sit amet lectus mattis aliquet. Pellentesque mattis elit non risus mollis laoreet. Nullam eleifend sit amet est vel sodales. Duis vitae luctus mi.
+                A Agenda Cultural Inclusiva é dedicada a proporcionar uma ampla gama de serviços culturais acessíveis e inclusivos para todos os públicos. Nosso compromisso é oferecer experiências enriquecedoras que promovam a diversidade e a igualdade de acesso, garantindo que todos possam participar plenamente das atividades culturais que oferecemos.
             </Typography>
             <Typography variant="body1" paragraph>
-                Nulla facilisi. Curabitur id pulvinar lorem, vel dapibus massa. Aliquam erat volutpat. Nulla rutrum volutpat mi, a elementum metus consectetur sed. Vestibulum gravida ante eget metus posuere, a malesuada nisi tincidunt. Ut ultricies leo et augue egestas aliquet. Nam aliquet enim vitae nisl molestie, vitae tempor libero elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi luctus scelerisque urna, eget fermentum lacus malesuada eget.
+                Oferecemos eventos que abrangem desde exposições artísticas e performances teatrais até workshops educacionais e visitas guiadas, todos projetados com um foco especial na acessibilidade. Cada evento é planejado meticulosamente para garantir que pessoas com diferentes habilidades e necessidades possam desfrutar de uma experiência cultural significativa e inclusiva.
+            </Typography>
+            <Typography variant="body1" paragraph>
+                Nossa equipe colabora com artistas, instituições culturais e especialistas em acessibilidade para criar programas que atendam às diretrizes de acessibilidade e proporcionem um ambiente acolhedor e inclusivo para todos os participantes. Acreditamos que a cultura é um direito de todos, e trabalhamos incansavelmente para remover barreiras e criar oportunidades equitativas de envolvimento cultural.
+            </Typography>
+            <Typography variant="body1" paragraph>
+                Ao escolher a Agenda Cultural Inclusiva, você está optando por apoiar iniciativas que promovem a inclusão e celebram a diversidade através da cultura. Junte-se a nós em nossa missão de tornar a cultura acessível a todos, contribuindo para uma sociedade mais inclusiva e consciente das necessidades de seus cidadãos.
             </Typography>
         </Container>
     );

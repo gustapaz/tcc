@@ -3,9 +3,9 @@ import { Box, Typography } from '@mui/material';
 
 function Footer() {
     return (
-        <Box component="footer" sx={{ p: 2, bgcolor: 'primary.main', color: 'white', mt: 'auto', textAlign: 'center' }}>
+        <Box className="rodape" component="footer">
             <Typography variant="body1">
-                &copy; 2024 Meu Aplicativo. Todos os direitos reservados.
+                &copy; 2024 ACI. Todos os direitos reservados.
             </Typography>
         </Box>
     );

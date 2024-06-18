@@ -11,7 +11,7 @@ function Contact() {
 
     return (
         <Container>
-            <img src="https://via.placeholder.com/1200x400" alt="Contato" className="img-fluid" />
+            <img src="/images/contact_us.jpg" alt="Contato" className="img-fluid" />
             <Typography variant="h4" gutterBottom>
                 Contato
             </Typography>
@@ -43,7 +43,7 @@ function Contact() {
                     multiline
                     rows={4}
                 />
-                <Button variant="contained" color="primary" type="submit" aria-label="Enviar">
+                <Button variant="contained" className="btn" type="submit" aria-label="Enviar">
                     Enviar
                 </Button>
             </Box>

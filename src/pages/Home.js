@@ -15,14 +15,14 @@ function Home() {
             <Box my={5}>
                 <Grid container spacing={5} alignItems="center">
                     <Grid item xs={12} md={6}>
-                        <img src="https://via.placeholder.com/400x300" alt="Apresentação da LP" className="img-fluid" />
+                        <img src="/images/cultural_event.jpg" alt="Evento Cultural Inclusivo" className="img-fluid" />
                     </Grid>
                     <Grid item xs={12} md={6}>
                         <Typography variant="h4" gutterBottom>
-                            Bem-vindo ao Meu Aplicativo
+                            Bem-vindo à Agenda Cultural Inclusiva
                         </Typography>
                         <Typography variant="body1" paragraph>
-                            Esta é a página inicial do seu aplicativo. Aqui você pode colocar qualquer conteúdo que desejar.
+                            Explore eventos culturais acessíveis para todos. Encontre e participe de experiências culturais inclusivas perto de você.
                         </Typography>
                     </Grid>
                 </Grid>
@@ -35,14 +35,14 @@ function Home() {
                             Sobre Nós
                         </Typography>
                         <Typography variant="body1" paragraph>
-                            Aqui você pode colocar informações sobre a sua empresa ou aplicação. Fale sobre sua missão, visão e valores.
+                            A Agenda Cultural Inclusiva está comprometida em tornar a cultura acessível a todos, promovendo eventos inclusivos que celebram a diversidade.
                         </Typography>
-                        <Button variant="contained" color="primary" component={Link} to="/about" aria-label="Ir para Sobre">
+                        <Button variant="contained" className="btn" component={Link} to="/about" aria-label="Ir para Sobre">
                             Saiba Mais
                         </Button>
                     </Grid>
                     <Grid item xs={12} md={6} order={{ xs: 1, md: 2 }}>
-                        <img src="https://via.placeholder.com/400x300" alt="Sobre Nós" className="img-fluid" />
+                        <img src="/images/about_us.jpg" alt="Sobre Nós" className="img-fluid" />
                     </Grid>
                 </Grid>
             </Box>
@@ -50,16 +50,16 @@ function Home() {
             <Box my={5}>
                 <Grid container spacing={5} alignItems="center">
                     <Grid item xs={12} md={6}>
-                        <img src="https://via.placeholder.com/400x300" alt="Nossos Serviços" className="img-fluid" />
+                        <img src="/images/our_services.jpg" alt="Nossos Serviços" className="img-fluid" />
                     </Grid>
                     <Grid item xs={12} md={6}>
                         <Typography variant="h4" gutterBottom>
                             Nossos Serviços
                         </Typography>
                         <Typography variant="body1" paragraph>
-                            Descreva aqui os serviços que você oferece. Pode incluir detalhes sobre cada serviço e como eles beneficiam os seus clientes.
+                            Descubra uma variedade de serviços culturais acessíveis. Explore eventos, exposições, teatros e muito mais.
                         </Typography>
-                        <Button variant="contained" color="primary" component={Link} to="/services" aria-label="Ir para Serviços">
+                        <Button variant="contained" className="btn" component={Link} to="/services" aria-label="Ir para Serviços">
                             Saiba Mais
                         </Button>
                     </Grid>
@@ -73,14 +73,14 @@ function Home() {
                             Contato
                         </Typography>
                         <Typography variant="body1" paragraph>
-                            Preencha o formulário abaixo para entrar em contato conosco.
+                            Entre em contato conosco para mais informações sobre eventos culturais inclusivos ou para sugerir novas iniciativas.
                         </Typography>
-                        <Button variant="contained" color="primary" component={Link} to="/contact" aria-label="Ir para Contato">
+                        <Button variant="contained" className="btn" component={Link} to="/contact" aria-label="Ir para Contato">
                             Saiba Mais
                         </Button>
                     </Grid>
                     <Grid item xs={12} md={6} order={{ xs: 1, md: 2 }}>
-                        <img src="https://via.placeholder.com/400x300" alt="Contato" className="img-fluid" />
+                        <img src="/images/contact_us.jpg" alt="Contato" className="img-fluid" />
                     </Grid>
                 </Grid>
             </Box>
