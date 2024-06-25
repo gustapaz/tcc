@@ -11,7 +11,7 @@ function About() {
 
     return (
         <Container>
-            <img src="/images/about_us.jpg" alt="Sobre Nós" className="img-fluid" />
+            <img src="/images/about_us.jpg" alt="Sobre Nós" className="img-edit" />
             <Typography variant="h4" gutterBottom>
                 Sobre a Agenda Cultural Inclusiva
             </Typography>

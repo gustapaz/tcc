@@ -11,7 +11,7 @@ function Contact() {
 
     return (
         <Container>
-            <img src="/images/contact_us.jpg" alt="Contato" className="img-fluid" />
+            <img src="/images/contact_us.jpg" alt="Contato" className="img-edit" />
             <Typography variant="h4" gutterBottom>
                 Contato
             </Typography>

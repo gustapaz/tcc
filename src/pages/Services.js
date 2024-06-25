@@ -11,7 +11,7 @@ function Services() {
 
     return (
         <Container>
-            <img src="/images/our_services.jpg" alt="Nossos Serviços" className="img-fluid" />
+            <img src="/images/our_services.jpg" alt="Nossos Serviços" className="img-edit" />
             <Typography variant="h4" gutterBottom>
                 Nossos Serviços
             </Typography>
